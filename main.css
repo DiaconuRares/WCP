@@ -68,7 +68,7 @@ p {
     margin: 0;
     width: 20%;
     height: 100%;
-    margin-left: calc(50% - (200px / 2));
+    margin-left: calc(50% - (20% / 2));
     background-color: transparent;
     border: 3px solid white;
     color: white;
