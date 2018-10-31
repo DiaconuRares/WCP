@@ -68,7 +68,7 @@ p {
     margin: 0;
     width: 20%;
     height: 100%;
-    margin-left: calc(50% - (20% / 2));
+    margin-left: calc(50% - (200px / 2));
     background-color: transparent;
     border: 3px solid white;
     color: white;
@@ -182,7 +182,7 @@ p {
 }
 
 .b2 {
-    overflow: auto;
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
@@ -205,11 +205,30 @@ p {
 
 .container {
     margin: 0;
-    padding: 20px;
-    width: calc(100% - 40px);
-    height: calc(100% - 240px);
-    background-color: purple;
-    position: fixed;
+    padding: 15px;
+    width: calc(100% - 30px);
+    height: calc(100% - 210px);
+    background-color: #303030;
+    position: static;
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: calc(50% - 20px);
+    background-color: #E8E8E8;
+}
+
+.item1 {
+    margin-top: 20px;
+}
+
+.item>center>.wine {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: calc(50%);
 }
             
 .div {
