@@ -4,8 +4,8 @@
     padding: 0;
     position: absolute;
     z-index: -2;
-    height: 100%;
-    width: 100%;
+    height: calc(100% - 100px);
+    width: calc(100% - 100px);
 }
 
 .b0 {
