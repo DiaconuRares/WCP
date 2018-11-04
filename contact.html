@@ -2,49 +2,40 @@
     <head>
         <title>Contact</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono" rel="stylesheet">
     </head>
-    <body class="b3" id="particles-js">
+    <body class="b3">
+        
         <div class="box">
-            <div class="text0 text">Contact</div>
-            <div class="textMain text"></div>
+            <div class="text0 text"><p>Contact</p></div>
+            <div class="textMain text">
+                <div class="c0 contact">
+                    <h1>Telefon</h1>
+                    <ul>
+                        <li>07XX XXX XXX</li>
+                    </ul>
+                </div>
+                <div class="c1 contact">
+                    <h1>Sediu</h1>
+                    <ul>
+                        <li>Localitate, Tara, Sectorul etc...</li>
+                    </ul>
+                </div>
+                <div class="c2 contact">
+                    <h1>Comanda Vocala</h1>
+                    <ul>
+                        <li>07XX XXX XXX</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         
-        <style>
-            .b3 {
-                background-image: linear-gradient(to bottom right, #1034A6, #008ECC);
-                margin: 0;
-                padding: 50px;
-                overflow: hidden;
-            }
-            
-            .box {
-                margin: auto;
-                padding: 0;
-                height: calc(100% - 2px);
-                width: calc(75% - 2px);
-                background-color: #F8F8F8;
-                border: 1px solid black;
-                border-radius: 10px;
-                box-shadow: 5px 3px #282828;
-            }
-            
-            .box>.text0 {
-                margin: auto;
-                padding: 25px;
-                background-color: transparent;
-                height: calc(50px);
-                width: calc(100% - 50px);
-                text-align: center;
-                font-size: 60px;
-                font-family: 'Open Sans', sans-serif;
-            }
-            
-            .textMain {
-                margin: 0;
-                padding: 0;
-                background-color: transparent;
-                height: calc(100% - 100px);
-            }
-        </style>
+        <script src="particles.min.js"></script>
+        <script>
+          particlesJS.load('particles-js', 'particles.json', function(){
+            console.log('particles.json loaded...');
+          });
+        </script>
     </body>
 </html>

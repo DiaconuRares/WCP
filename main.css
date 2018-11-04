@@ -259,3 +259,70 @@ p {
 .div {
     display: block;
 }
+
+.b3 {
+    background-image: url(https://www.publicdomainpictures.net/pictures/100000/nahled/degrade-de-couleur-3.jpg); 
+    background-size: cover;
+    background-position: auto;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.box {
+    margin: auto;
+    padding: 0;
+    height: calc(90% - 2px);
+    width: calc(75% - 2px);
+    background-color: #F8F8F8;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 3px #282828;
+    z-index: 1;
+            }
+            
+.box>.text0 {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+
+.box>.text0>p {
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+}
+            
+.textMain {
+    margin: 0;
+    padding: 20px;
+    background-color: transparent;
+    height: calc(80% - 40px);
+    display: flex;
+    flex-direction: column;
+}
+
+.textMain>.contact {
+    margin: 0;
+    padding: 0;
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+    flex: 1;
+    font-family: sans-serif;
+}
+
+.textMain>.contact>ul>li {
+    font-size: 25px;
+    font-family: 'Oxygen Mono', monospace;
+}
